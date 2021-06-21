@@ -86,6 +86,9 @@ form input:focus {
     border-color: #3f3697 !important;
 } 
 .RioColor{
+    display: inline-block;
+    border-radius: 30%;
+    background-color:#f8f1f1 ;
     font-family: "AbrilFatface-Regular";
     color:#153e90;
     font-size: 60px;
@@ -93,10 +96,14 @@ form input:focus {
 
 }
 .BarColor{
+    border-radius: 30%;
+    background-color:#f8f1f1 ;
     color:#16c79a;
 }
-.color{
     
+.color{
+    background-color: #f8f1f1;
+    border-radius: 20%;
     color: #000000;
     font-family:"AbrilFatface-Regular";
 
