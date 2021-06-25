@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,8 +17,10 @@
   <link href="carousel/carousel.css" rel="stylesheet">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
   <header>
+
     <div class="container-fluid">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#">Inicio</a>
@@ -29,28 +32,71 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="iniciarS.html">Iniciar sesion</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Registrate.html">Registrate</a>
-            </li>
-          </ul>
-        </div>
-      </nav class=container-logo>
+              <!-- inicio de dropdown -->
+              <div class="d-flex">
+                <div class="dropdown">
+                  
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Iniciar sesion
+                  </a>
+                  <div class="dropdown-menu">
+                    <form class="px-2 py-3">
+                      <div class="form-group">
+                        <label for="exampleDropdownFormEmail1">Agrega tu email</label>
+                        <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                          placeholder="email@hotmailcom">
+                        <div class="form-group">
+                          <label for="exampleDropdownFormPassword1">Contraseña</label>
+                          <input type="password" class="form-control" id="exampleDropdownFormPassword1"
+                            placeholder="contraseña">
+                        </div>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                            <label class="form-check-label" for="dropdownCheck">
+                              Recordar mis datos
 
-      <div class="container-fluid">
-        <div class="imgLogo">
-          <img src="imagenes/Logo/Logo palmeras.jpg" alt="Img Logo" class="logo" data-aos="zoom-in"
-            data-aos-duration="3000" width="150px" height="150px">
+                            </label>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Ingresar</button>
+                    </form>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">¿No tenes cuenta? Crea una Nueva</a>
+                    <a class="dropdown-item" href="#">¿Olvidaste tu cotnraseña?</a>
+                  </div>
+                </div>
+              </div>
         </div>
-      </div>
-      <div class="container-fluid">
-        <div class="titulos">
-          <h1 data-aos="zoom-in" data-aos-duration="3000">Little Dreams Travels</h1>
-          <h3 data-aos="fade-up-right" data-aos-duration="3000">No es solo un viaje</h3>
+        <!-- dropdown-menu fin -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Registrate.html">Registrate</a>
+        </li>
+        </ul>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="A donde queres ir?" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
 
-        </div>
+    </div>
+    </div>
+    </nav class=container-logo>
+
+    <div class="container-fluid">
+      <div class="imgLogo">
+        <img src="imagenes/Logo/Logo palmeras.jpg" alt="Img Logo" class="logo" data-aos="zoom-in"
+          data-aos-duration="3000" width="150px" height="150px">
       </div>
+    </div>
+    <div class="container-fluid">
+      <div class="titulos">
+        <h1 data-aos="zoom-in" data-aos-duration="3000"class="overflow-auto">Little Dreams Travels</h1>
+        <h3 data-aos="zoom-in" data-aos-duration="2000">No es solo un viaje</h3>
+
+      </div>
+    </div>
     </div>
   </header>
   <hr class="featurette-divider">
@@ -61,7 +107,7 @@
         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
       </ol>
-      <h2>Los mas elegidos.</h2>
+      <h2 data-aos="zoom-in" data-aos-duration="2000">Los mas elegidos.</h2>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="imagenes/Pag index/snowboar.jpg" class="img-fluid" alt="Imagen Bariloche">
@@ -124,7 +170,7 @@
   </div>
   <div class="container">
     <div class="titulos">
-      <h2 data-aos="fade-up-left" data-aos-duration="3000">¿A donde querés ir?</h2>
+      <h2 data-aos="zoom-in" data-aos-duration="3000">Otra forma de viajar</h2>
     </div>
   </div>
   <hr class="featurette-divider">
@@ -140,7 +186,8 @@
           quaerat architecto blanditiis.
         </p>
 
-        <a href="Tierra del fuego.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Visitar</a>
+        <a href="Tierra del fuego.html" class="btn btn-primary btn-lg active" role="button"
+          aria-pressed="true">Visitar</a>
       </div>
 
       <div class="col-md-4">
@@ -312,8 +359,7 @@
       </div>
 
       <div class="col-md-4">
-        <img class="img-fluid" src="imagenes/San Luis/tirolesa-en-bici.png" alt="Img San Luis" height="500"
-          width="500">
+        <img class="img-fluid" src="imagenes/San Luis/tirolesa-en-bici.png" alt="Img San Luis" height="500" width="500">
       </div>
 
       <div class="col-md-4">
@@ -329,14 +375,14 @@
     <footer class="container py-5">
       <div class="row">
         <div class="col-3 col-md">
-            <img src="assets/icons/2x/baseline_share_black_24dp.png" alt=" ico.compartir" height="70px" width="70px">
+          <img src="assets/icons/2x/baseline_share_black_24dp.png" alt=" ico.compartir" height="70px" width="70px">
         </div>
         <div class="col-3 col-md">
-          
+
           <img src="assets/icons/whatsapp-logo_icon-icons.com_57054.ico" alt="ico whatsapp">
         </div>
         <div class="col-3 col-md">
-          
+
           <img src="assets/icons/fb_icon-icons.com_65434.ico" alt="ico llamada">
         </div>
         <div class="col-3 col-md">

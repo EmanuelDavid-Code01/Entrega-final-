@@ -1,3 +1,4 @@
+
 body{
     background-color: #f8f1f1;
 }
@@ -59,15 +60,16 @@ small{
 color:#3f3697;
     font-size: 25px;
 } 
-form input:focus {
-    width: 150px;
-    font-size: 24px;
-   transition: 3s;
-}
+// form input:focus {
+//     width: 202px;
+//     font-size: 24px;
+//    transition: 3s;
+// }
 .btn-primary {
+    
     color:#3f3697;
- background-color:#f8f1f1;
- border-color:#f8f1f1;
+    background-color: #f8f1f1;
+    border:double 4px grey;
 }
 .btn-primary:hover{
     color:#f8f1f1;
@@ -77,8 +79,8 @@ form input:focus {
 
 .btn{
     color:#3f3697 !important;
- background-color:#f8f1f1 !important;
- border-color:#f8f1f1 !important;
+ background-color: #f8f1f1 !important;
+ border:double 4px grey !important;
 }
 .btn:hover{
     color:#f8f1f1 !important;
@@ -127,3 +129,22 @@ div.row{
 .bg-light{
     background-color:#f8f1f1 !important;
 }
+input{
+    background-color:#3f3697 ;
+}
+.nav-item-align{
+    display: flex;
+    justify-content:right;
+}
+#navbarDropdownMenuLink{
+    border: double 4px #16c79a;
+    border-radius: 50%;
+}
+
+// imagen
+.img-fluid-quienes{
+     position:absolute;
+    //  left: 0px;
+    //  top: 0px;
+    z-index:-1;
+  }
