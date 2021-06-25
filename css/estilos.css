@@ -137,3 +137,6 @@ input {
 .img-fluid-quienes {
   position: absolute;
   z-index: -1; }
+
+.img-fluid {
+  border-radius: 30% !important; }
