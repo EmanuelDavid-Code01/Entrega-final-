@@ -144,3 +144,8 @@ input {
 @media screen and (max-width: 601px) {
   .col-sm-12 {
     font-size: 30px; } }
+
+.move:hover {
+  transition-duration: 230ms !important;
+  position: relative !important;
+  bottom: 20px !important; }
