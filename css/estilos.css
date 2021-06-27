@@ -140,3 +140,7 @@ input {
 
 .img-fluid {
   border-radius: 30% !important; }
+
+@media screen and (max-width: 601px) {
+  .col-sm-12 {
+    font-size: 30px; } }
