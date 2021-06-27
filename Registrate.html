@@ -22,7 +22,11 @@
     <header>
         <div class="container-fluid">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="#">Registrate</a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                </ul>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,28 +35,74 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="iniciarS.html">Iniciar sesion</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav class=container-logo>
+                            <!-- inicio de dropdown -->
+                            <div class="d-flex">
+                                <div class="dropdown">
 
-            <div class="container-fluid">
-                <div class="imgLogo">
-                    <img src="imagenes/Logo/Logo palmeras.jpg" alt="Img Logo" class="logo" data-aos="zoom-in"
-                        data-aos-duration="3000" width="150px" height="150px">
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="titulos">
-                    <h1 data-aos="zoom-in" data-aos-duration="3000">Little Dreams Travels</h1>
-                    <h3 data-aos="fade-up-right" data-aos-duration="3000">No es solo un viaje</h3>
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Iniciar sesion
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <form class="px-2 py-3">
+                                            <div class="form-group">
+                                                <label for="exampleDropdownFormEmail1">Agrega tu email</label>
+                                                <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                                    placeholder="email@hotmailcom">
+                                                <div class="form-group">
+                                                    <label for="exampleDropdownFormPassword1">Contraseña</label>
+                                                    <input type="password" class="form-control"
+                                                        id="exampleDropdownFormPassword1" placeholder="contraseña">
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="form-check">
+                                                        <input type="checkbox" class="form-check-input"
+                                                            id="dropdownCheck">
+                                                        <label class="form-check-label" for="dropdownCheck">
+                                                            Recordar mis datos
 
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Ingresar</button>
+                                        </form>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">¿No tenes cuenta? Crea una Nueva</a>
+                                        <a class="dropdown-item" href="#">¿Olvidaste tu cotnraseña?</a>
+                                    </div>
+                                </div>
+                            </div>
                 </div>
+                <!-- dropdown-menu fin -->
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand" href="#">Registrate</a>
+                </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="A donde queres ir?"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+
+        </div>
+        </div>
+        </nav class=container-logo>
+        </div>
+        <br>
+        <div class="container-fluid">
+            <div class="imgLogo">
+                <img src="imagenes/Logo/Logo palmeras.jpg" alt="Img Logo" class="logo" data-aos="zoom-in"
+                    data-aos-duration="3000" width="150px" height="150px">
             </div>
+        </div>
+        <div class="container-fluid">
+            <div class="titulos">
+                <h1 data-aos="zoom-in" data-aos-duration="3000">Little Dreams Travels</h1>
+                <h3 data-aos="fade-up-right" data-aos-duration="3000">No es solo un viaje</h3>
+
+            </div>
+        </div>
         </div>
     </header>
     <div class="container-fluid">
@@ -189,33 +239,37 @@
     <div class="container-fluid">
         <footer class="container py-5">
             <div class="row">
-              <div class="col-3 col-md">
-                <img src="assets/icons/2x/share-symbol_icon-icons.com_68493.ico" alt=" ico.compartir" height="70px" width="70px">
-              </div>
-              <div class="col-3 col-md">
-      
-                <img src="assets/icons/whatsapp-logo_icon-icons.com_57054.ico" alt="ico whatsapp">
-              </div>
-              <div class="col-3 col-md">
-      
-                <img src="assets/icons/fb_icon-icons.com_65434.ico" alt="ico llamada">
-              </div>
-              <div class="col-3 col-md">
-                <h5>Ayuda</h5>
-                <ul class="list-unstyled text-small">
-                  <li><a class="text-muted" href="Quienes-somos.html">Quienes Somos</a></li>
-                  <li><a class="text-muted" href="#">Donde Estamos</a></li>
-                  <li><a class="text-muted" href="#">Email</a></li>
-                  <li><a class="text-muted" href="#">Socios</a></li>
-                </ul>
-              </div>
-            </div>
-            <section>
-              <article>
-                <p class="float-right"><a href="#">volver arriba</a></p>
-              </article>
-            </section>
-          </footer>
+                <div class="col-3 col-md">
+                    <img src="assets/icons/2x/share-symbol_icon-icons.com_68493.ico" alt=" ico.compartir" height="70px"
+                        width="70px">
+                </div>
+                <div class="col-3 col-md">
+
+                    <img src="assets/icons/whatsapp-logo_icon-icons.com_57054.ico" alt="ico whatsapp">
+                </div>
+                <div class="col-3 col-md">
+
+                    <img src="assets/icons/fb_icon-icons.com_65434.ico" alt="ico llamada">
+                </div>
+                <div class="col-3 col-md">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group">
+                                <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ayuda</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="Quienes-somos.html">Quienes somos</a>
+                                    <a class="dropdown-item" href="#">Donde Estamos</a>
+                                    <a class="dropdown-item" href="#">Email</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Socios</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md">
+                            <p class="float-right"><a href="#">volver arriba</a></p>
+                        </div>
+        </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
