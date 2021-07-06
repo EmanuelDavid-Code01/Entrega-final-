@@ -42,6 +42,7 @@
 
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="imagenes/icoLogo/User-Interface-Login-icon.png" alt="login">
                     Iniciar sesion
                   </a>
                   <div class="dropdown-menu">
@@ -75,10 +76,12 @@
         </div>
         <!-- dropdown-menu fin -->
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Registrate.html">Registrate</a>
-        </li>
-        </ul>
+        <div class="flexCenter">
+          <li class="nav-item">
+            <a class="nav-link" href="Registrate.html">Registrate</a>
+          </li>
+          </ul>
+        </div>
         <form class="form-inline">
           <input class="form-control mr-sm-2" type="search" placeholder="A donde queres ir?" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
@@ -91,19 +94,25 @@
 
 
     <br>
-    <div class="container-fluid">
-      <div class="imgLogo">
-        <img src="imagenes/Logo/Logo palmeras.jpg" alt="Img Logo" class="logo" data-aos="zoom-in"
-          data-aos-duration="3000" width="150px" height="150px">
+    <div class="row featurette">
+      <div class="col-md-1">
+        <div class="container-fluid">
+          <div class="imgLogo">
+            <img src="imagenes/Logo/Logo palmeras.jpg" alt="Img Logo" class="logo" data-aos="zoom-in"
+              data-aos-duration="3000" width="150px" height="150px">
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="container-fluid">
-      <div class="titulos">
-        <h1 data-aos="zoom-in" data-aos-duration="3000" class="col-sm-12">Little Dreams Travels</h1>
-        <h3 data-aos="zoom-in" data-aos-duration="2000">No es solo un viaje</h3>
+      <div class="col-md-11">
+        <div class="container-fluid">
+          <div class="titulos">
+            <h1 data-aos="zoom-in" data-aos-duration="3000" class="col-sm-12">Little Dreams Travels</h1>
+            <h3 data-aos="zoom-in" data-aos-duration="2000">No es solo un viaje</h3>
 
+          </div>
+        </div>
       </div>
-    </div>
+
     </div>
   </header>
   <hr class="featurette-divider">
@@ -117,7 +126,7 @@
       <h2 data-aos="zoom-in" data-aos-duration="2000">Los mas elegidos.</h2>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="imagenes/Pag index/snowboar.jpg" class="img-fluid" alt="Imagen Bariloche">
+          <img src="imagenes/Pag index/snowboar.jpg" alt="Imagen Bariloche">
           <div class="carousel-caption d-block">
             <div class="moverR">
               <div class="col-md-4 ">
@@ -132,7 +141,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="imagenes/Pag index/Cordoba.jpg" class="img-fluid" alt="2da imagen de un lugar ">
+          <img src="imagenes/Pag index/Cordoba.jpg" alt="2da imagen de un lugar ">
           <div class="carousel-caption d-block">
 
             <div class="moverR ">
@@ -151,7 +160,7 @@
         </div>
         <div class="carousel-item">
 
-          <img src="imagenes/Pag index/jujuy.jpg" class="img-fluid" alt="3er imagen de un lugar ">
+          <img src="imagenes/Pag index/jujuy.jpg" alt="3er imagen de un lugar ">
           <div class="carousel-caption d-block">
             <div class="moverR">
               <div class="col-md-4">
@@ -183,29 +192,28 @@
   <hr class="featurette-divider">
   <div class="container">
     <div class="row featurette">
-      <div class="col-md-4">
+      <div class="col-md-12">
         <h2 class="featurette-heading">Tierra del Fuego <span class="text-muted">
             <h2>Ushuaia</h2>
           </span>
         </h2>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
-          Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
-          quaerat architecto blanditiis.
+      </div>
+    </div>
+    <div class="row featurette">
+      <div class="col-md-4">
+        <p class="lead text-justify">Es la única provincia argentina cuya capital, Ushuaia, está en una isla,Estas y otras características especiales de la isla, como su fabulosa reserva de paisajes y su buena oferta turística, justifican una visita.
         </p>
+      </div>
 
+      <div class="col-md-4">
+        <img id="grad" class="img-fluid" src="imagenes/Tierra del fuego/kayak.png" alt=" img Tierra del fuego kayak">
+      </div>
+      <div class="col-md-4">
+        <p class="lead text-justify">Podemos encontrar diversas actividades para realizar, al aire libre o bajo techo ya que topograficamente nos ofrece gran variedad de escenarios para realizar actividades, alguna de ellas son:
+         senderismo, kayak, rafting, buceo entre otras</p>
+        
         <a href="Tierra del fuego.html" class="btn btn-primary btn-lg active" role="button"
           aria-pressed="true">Visitar</a>
-      </div>
-
-      <div class="col-md-4">
-        <img class="img-fluid" src="imagenes/Tierra del fuego/kayak.png" alt=" img Tierra del fuego kayak">
-      </div>
-
-      <div class="col-md-4">
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
-          Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
-          quaerat architecto blanditiis.
-        </p>
       </div>
     </div>
   </div>
@@ -217,7 +225,7 @@
             <h2>Uspallata</h2>
           </span>
         </h2>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
+        <p class="lead text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
           Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
           quaerat architecto blanditiis.
         </p>
@@ -230,7 +238,7 @@
       </div>
 
       <div class="col-md-4">
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
+        <p class="lead text-justify">">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
           Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
           quaerat architecto blanditiis.
         </p>
@@ -245,7 +253,7 @@
             <h2>Purmamarca.</h2>
           </span>
         </h2>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
+        <p class="lead text-justify">">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
           Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
           quaerat architecto blanditiis.
         </p>
@@ -258,7 +266,7 @@
       </div>
 
       <div class="col-md-4">
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
+        <p class="lead text-justify">">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
           Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
           quaerat architecto blanditiis.
         </p>
@@ -273,7 +281,7 @@
             <h2>Cruz Alta</h2>
           </span>
         </h2>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
+        <p class="lead text-justify">">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
           Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
           quaerat architecto blanditiis.
         </p>
@@ -286,7 +294,7 @@
       </div>
 
       <div class="col-md-4">
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
+        <p class="lead text-justify">">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
           Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
           quaerat architecto blanditiis.
         </p>
@@ -301,7 +309,7 @@
             <h2>Castellanos</h2>
           </span>
         </h2>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
+        <p class="lead text-justify">">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
           Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
           quaerat architecto blanditiis.
         </p>
@@ -314,7 +322,7 @@
       </div>
 
       <div class="col-md-4">
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
+        <p class="lead text-justify">">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
           Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
           quaerat architecto blanditiis.
         </p>
@@ -329,7 +337,7 @@
             <h2>Puerto Madryn</h2>
           </span>
         </h2>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
+        <p class="lead text-justify">">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
           Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
           quaerat architecto blanditiis.
         </p>
@@ -342,7 +350,7 @@
       </div>
 
       <div class="col-md-4">
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
+        <p class="lead text-justify">">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
           Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
           quaerat architecto blanditiis.
         </p>
@@ -357,7 +365,7 @@
             <h2>Merlo</h2>
           </span>
         </h2>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
+        <p class="lead text-justify">">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
           Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
           quaerat architecto blanditiis.
         </p>
@@ -370,7 +378,7 @@
       </div>
 
       <div class="col-md-4">
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
+        <p class="lead text-justify">">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem officiis cupiditate!
           Laborum numquam vero ipsum repellendus quidem veritatis quis aperiam quas cumque autem harum culpa vel,
           quaerat architecto blanditiis.
         </p>
@@ -381,18 +389,18 @@
   <div class="container-fluid">
     <footer class="container py-5">
       <div class="row">
-        
-        <div class="col-3 col-md">
-          <img src="assets/icons/2x/share-symbol_icon-icons.com_68493.ico" class="move" alt=" ico.compartir" height="70px"
-            width="70px">
-      </div>
-        <div class="col-3 col-md">
 
-          <img src="assets/icons/whatsapp-logo_icon-icons.com_57054.ico"class="move" alt="ico whatsapp">
+        <div class="col-3 col-md">
+          <img src="assets/icons/2x/share-symbol_icon-icons.com_68493.ico" class="move" alt=" ico.compartir"
+            height="70px" width="70px">
         </div>
         <div class="col-3 col-md">
 
-          <img src="assets/icons/fb_icon-icons.com_65434.ico"class="move" alt="ico llamada">
+          <img src="assets/icons/whatsapp-logo_icon-icons.com_57054.ico" class="move" alt="ico whatsapp">
+        </div>
+        <div class="col-3 col-md">
+
+          <img src="assets/icons/fb_icon-icons.com_65434.ico" class="move" alt="ico llamada">
         </div>
         <div class="col-3 col-md">
           <div class="input-group mb-3">
