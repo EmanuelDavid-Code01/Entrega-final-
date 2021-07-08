@@ -2,15 +2,24 @@
 body{
     background: linear-gradient(130deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%);
 }
-// #grad{
-//     background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
-// }
+ div.rowGrad{
+    background-image: linear-gradient(270deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%) !important;
+ }
+div.row.featurette{
+    margin:0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+a{
+    font-size: 1.2rem;
+}
+
 hr{
     border: 2px solid #16c79a;
     background-color:  #16c79a;
 }
 p{
-    text-align: justify;
+    text-align: center;
     color: #11698e;
     font-family:"Lato-Light" ;
 }
@@ -44,18 +53,10 @@ small{
   color:   #19456b;
 }
 .bg-dark{
-    background-color: #77ACF1 !important;
-}
-h1.col-sm-12.aos-init.aos-animate{
-    position: relative !important;
-    right: 130px;
+    
+    background-image: linear-gradient(270deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%) !important;
 }
 .logo{
-      position: relative;
-      top:10px;
-    display:block;
-//     margin-left: auto;
-//    margin-right: auto;
     border-radius: 30%;
     border: double 10px #3f3697;
 }
@@ -92,7 +93,6 @@ color:#3f3697;
 } 
 .RioColor{
     display: inline-block;
-    border-radius: 30%;
     background-color:#f8f1f1 ;
     font-family: "AbrilFatface-Regular";
     color:#153e90;
@@ -107,7 +107,6 @@ color:#3f3697;
     
 .color{
     background-color: #f8f1f1;
-    border-radius: 20%;
     color: #000000;
     font-family:"AbrilFatface-Regular";
 
@@ -126,6 +125,7 @@ main{
 
 }
 div.row{
+    width: 100%;
     background: linear-gradient(130deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%);
 }
 .bg-light{
@@ -163,4 +163,9 @@ input{
   }
   .lead{
       text-align: justify;
+  }
+  div.container-fluid{
+      padding-left: 0;
+      padding-right: 0;
+
   }
