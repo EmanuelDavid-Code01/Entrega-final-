@@ -96,17 +96,14 @@ small {
 
 .RioColor {
   display: inline-block;
-  background-color: #f8f1f1;
   font-family: "AbrilFatface-Regular";
   color: #153e90;
   font-size: 60px; }
 
 .BarColor {
-  background-color: #f8f1f1;
   color: #16c79a; }
 
 .color {
-  background-color: #f8f1f1;
   color: #000000;
   font-family: "AbrilFatface-Regular"; }
 
