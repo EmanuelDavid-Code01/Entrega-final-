@@ -176,7 +176,8 @@ img.logo.aos-init.aos-animate {
   .col-sm-12 {
     font-size: 30px; }
   div.col-md-1 {
-    margin-top: inherit; } }
+    margin-top: inherit;
+    padding-top: 34px; } }
 
 .move:hover {
   transition-duration: 230ms !important;
