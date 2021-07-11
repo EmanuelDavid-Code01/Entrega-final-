@@ -175,8 +175,8 @@ img.logo.aos-init.aos-animate {
 @media screen and (max-width: 601px) {
   .col-sm-12 {
     font-size: 30px; }
-  div.row.featurette .Logo {
-    margin-top: 82px; } }
+  div.col-md-1 {
+    margin-top: inherit; } }
 
 .move:hover {
   transition-duration: 230ms !important;
