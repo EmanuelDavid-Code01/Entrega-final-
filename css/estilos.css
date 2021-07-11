@@ -175,7 +175,7 @@ img.logo.aos-init.aos-animate {
 @media screen and (max-width: 601px) {
   .col-sm-12 {
     font-size: 30px; }
-  div.row.featurette {
+  div.row.featurette .Logo {
     margin-top: 82px; } }
 
 .move:hover {
