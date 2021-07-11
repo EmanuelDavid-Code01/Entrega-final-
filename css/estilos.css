@@ -172,7 +172,7 @@ img.logo.aos-init.aos-animate {
 .AlineadoH3 {
   text-align: initial; }
 
-@media screen and (max-width: 601px) {
+@media screen and (min-width: 300px) and (max-width: 700px) {
   .col-sm-12 {
     font-size: 30px; }
   div.col-md-1 {
