@@ -10,6 +10,9 @@
   font-family: "Lato-Regular";
   src: url(../assets/fonts/Lato-Regular.ttf); }
 
+.navbar-dark .navbar-toggler-icon {
+  background-color: #0a236a; }
+
 .container-fluid .nav {
   text-align: center; }
 
