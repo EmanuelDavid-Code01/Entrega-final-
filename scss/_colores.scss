@@ -1,5 +1,14 @@
-
+.container-fluid .nav{
+    text-align: center;
+}
+* {
+    margin: 0;
+  }
+  .footer {
+    height: 4rem;
+  }
 body{
+    height: 100%;
     background: linear-gradient(130deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%);
 }
  div.rowGrad{
@@ -11,7 +20,7 @@ div.row.featurette{
     margin-bottom: 40px;
 }
 a{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 hr{
@@ -24,18 +33,18 @@ p{
     font-family:"Lato-Light" ;
 }
 h3{
-    color: #11698e;
+    color: #0a236a;
     text-align: center;
     font-family: "AbrilFatface-Regular";
 }
 h2{
-    color: #11698e;
+    color: #0a236a;
     text-align: center;
     font-family:"Lato-Regular" ;
     
 }
 h1{
-    color: #19456b;
+    color: #0a236a;
     text-align: center;
     font-size:80px;  
     font-family: "AbrilFatface-Regular";
@@ -137,10 +146,9 @@ input{
     justify-content:right;
 
 }
-#navbarDropdownMenuLink{
-    border: double 4px #16c79a;
-    background-color:#16c79a ;
-}
+ #navbarDropdownMenuLink{
+     padding-bottom: 0;
+} 
 .img-fluid-quienes{
      position:absolute;
     z-index:-1;
@@ -161,4 +169,11 @@ input{
       padding-left: 0;
       padding-right: 0;
 
+  }
+  img.logo.aos-init.aos-animate{
+      display: block;
+      margin: auto;
+  }
+  .AlineadoH3{
+      text-align:initial;
   }
