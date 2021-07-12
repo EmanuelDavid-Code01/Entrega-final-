@@ -13,11 +13,18 @@
 .navbar-dark .navbar-toggler-icon {
   background-color: #0a236a; }
 
+h1.h3.mb-3 {
+  color: #241d8b;
+  background-color: turquoise; }
+
 div.album.py-5.bg-light {
   background-color: transparent !important; }
 
+main.sinBackgroun {
+  background-color: transparent; }
+
 body.fondoBariloche {
-  background-image: url("/imagenes/Rio Negro/bariloche-trekking-1-scaled.jpg");
+  background-image: url("/imagenes/Rio Negro/bariloche-trekking-1-scaled.jpg") !important;
   position: relative;
   z-index: 99;
   background-repeat: no-repeat;
