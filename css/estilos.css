@@ -202,3 +202,12 @@ img.logo.aos-init.aos-animate {
 div.card.mb-4.shadow-sm {
   border-top-left-radius: 40%;
   border-top-right-radius: 40%; }
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  body.fondoBariloche {
+    background-image: url("/imagenes/Rio Negro/bariloche-trekking-1-scaled.jpg") !important;
+    position: relative;
+    z-index: 99;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; } }
