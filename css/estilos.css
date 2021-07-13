@@ -17,19 +17,9 @@ h1.h3.mb-3 {
   color: #241d8b;
   background-color: turquoise; }
 
-div.album.py-5.bg-light {
-  background-color: transparent !important; }
-
-main.sinBackgroun {
-  background-color: transparent; }
-
-body.fondoBariloche {
-  background-image: url("/imagenes/Rio Negro/barilocheIMg.png") !important;
-  position: relative;
-  z-index: 99;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; }
+.fondoBody {
+  background-image: url("https://elephas.com.ar/wp-content/uploads/2020/06/bariloche-trekking-1-scaled.jpg");
+  background-size: contain; }
 
 .container-fluid .nav {
   text-align: center; }
@@ -40,7 +30,7 @@ body.fondoBariloche {
 .footer {
   height: 4rem; }
 
-body {
+body.fondoIndex {
   height: 100%;
   background: linear-gradient(130deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%); }
 
@@ -202,12 +192,3 @@ img.logo.aos-init.aos-animate {
 div.card.mb-4.shadow-sm {
   border-top-left-radius: 40%;
   border-top-right-radius: 40%; }
-
-@media screen and (min-width: 300px) and (max-width: 768px) {
-  body.fondoBariloche {
-    background-image: url("/imagenes/Rio Negro/barilocheIMg.png") !important;
-    position: relative;
-    z-index: 99;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; } }
