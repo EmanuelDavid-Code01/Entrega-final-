@@ -21,14 +21,13 @@
 <body>
 
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid nav">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link dropdown-item" href="index.html">Inicio</a>
                     </li>
                 </ul>
-
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -36,12 +35,11 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <!-- inicio de dropdown -->
                             <div class="d-flex">
                                 <div class="dropdown">
-
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-item" href="#" id="navbarDropdownMenuLink" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="imagenes/icoLogo/icons8-entrar-40.png" alt="login">
                                         Iniciar sesion
                                     </a>
                                     <div class="dropdown-menu">
@@ -61,7 +59,6 @@
                                                             id="dropdownCheck">
                                                         <label class="form-check-label" for="dropdownCheck">
                                                             Recordar mis datos
-
                                                         </label>
                                                     </div>
                                                 </div>
@@ -74,134 +71,116 @@
                                 </div>
                             </div>
                 </div>
-                <!-- dropdown-menu fin -->
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Registrate.html">Registrate</a>
-                </li>
-                <li class="nav-item">
-                    <a class="navbar-brand" href="#">Quienes somos</a>
-                </li>
-                </ul>
+                <div class="flexCenter">
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-item" href="Registrate.html">Registrate</a>
+                    </li>
+                </div>
+                <div class="flexCenter">
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-item" href="#">Quienes Somos</a>
+                    </li>
+                    </ul>
+                </div>
                 <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="A donde queres ir?"
+                    <input class="form-control mr-sm-2" type="search" placeholder="A dónde querés ir?"
                         aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                 </form>
-
         </div>
         </div>
         </nav class=container-logo>
         </div>
         <br>
         <div class="container-fluid">
-            <div class="imgLogo">
-                <img src="imagenes/Logo/Logo palmeras.jpg" alt="Img Logo" class="logo" data-aos="zoom-in"
-                    data-aos-duration="3000" width="150px" height="150px">
+            <div class="row featurette logo">
+                <div class="col-md-1">
+                    <div class="imgLogo">
+                        <img src="imagenes/Logo/Logo.png" alt="Img Logo" class="logo" data-aos="zoom-in"
+                            data-aos-duration="3000">
+                    </div>
+                </div>
+                <div class="col-md-11">
+                    <h1 data-aos="zoom-in" data-aos-duration="3000" class="col-sm-12 QuienesSomos">Quienes Somos</h1>
+                </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="titulos">
-                <h1 data-aos="zoom-in" data-aos-duration="3000">Little Dreams Travels</h1>
-                <h3 data-aos="fade-up-right" data-aos-duration="3000">No es solo un viaje</h3>
-
-            </div>
-        </div>
-
-        </div>
-        <hr class="featurette-divider">
     </header>
     <div class="container-fluid">
-        <div class="card bg-dark text-white">
-            <img src="imagenes/Pag index/arrecife de coral.jpg" class="card-img" alt="img-coral">
-            <div class="card-img-overlay">
-                <div class="col-md-4 col-mb-4 ">
-                    <h3 class="card-title"> Somos la mejor opcion para tus vacaciones, tenemos informacion actualizada
-                        de los lugares mas solicitados, gracias a nuestros propios clientes.</h3>
-                    <p class="card-text">
-                        Trabajamos en conjunto con... etc...
-                    </p>
-                    <p class="card-text ">Necesitamos de tu ayuda para seguir creciendo</p>
+        <div class="row featurette">
+            <div class="card bg-dark text-white">
+                <img src="imagenes/Pag index/arrecife de coral.jpg" class="card-img" alt="img-coral">
+                <div class="card-img-overlay">
+                    <div class="col-md-4 col-mb-4 ">
+                        <h3 class="card-title col-md-4 col-mb-4"> Somos la mejor opcion para tus vacaciones, tenemos informacion
+                            actualizada
+                            de los lugares mas solicitados, gracias a nuestros propios clientes.
+                        </h3>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <hr class="featurette-divider">
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <div class="col-md-5 p-lg-5 mx-auto my-5">
-            <h1 class="display-4 font-weight-normal">Tenemos el apoyo de </h1>
-            <p class="lead font-weight-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A tempora, eius
-                libero autem totam illo, blanditiis molestias numquam dolor quod ut quis itaque molestiae hic quia
-                perspiciatis reiciendis, animi fugit.</p>
-            <a class="btn btn-outline-secondary" href="#">Proximamente</a>
-        </div>
-        <div class="product-device shadow-sm d-none d-md-block"></div>
-        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-    </div>
-
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-            <div class="my-3 py-3">
-                <h2 class="display-5">Creadores y trabajadores de la pagina.</h2>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident asperiores illo
-                    explicabo pariatur odio, unde consequuntur nobis qui sequi eligendi hic quaerat optio, ut quas
-                    incidunt cupiditate voluptates dolorem magni!</p>
-            </div>
-            <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div>
-        </div>
         <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 p-3">
-                <h2 class="display-5">La ayuda de </h2>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, fugiat facere ipsum
-                    debitis natus nesciunt, autem quaerat modi enim vitae eveniet doloribus, voluptates consequatur sunt
-                    maxime atque quidem molestiae? Quis?.</p>
+                <h2 class="display-5">Nos podes encontrar en: </h2>
+                <p class="lead">
+                    Estamos ubicados en el jardin japones de la ciudad de Buenos Aires, terminal de trenes cercanas:
+                    MITRE, JOSE LEON SUAREZ, RETIRO. Lineas de colectivos cercanas al destino lineas: 12, 343, 21, 114.
+                </p>
             </div>
             <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.146787217545!2d-58.411439435196186!3d-34.57515221349329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb57a4147c5c7%3A0xfc930bf72fdf871f!2zSmFyZMOtbiBKYXBvbsOpcw!5e0!3m2!1ses-419!2sar!4v1626230309346!5m2!1ses-419!2sar"
+                    width="100%" height="300px" border-radius="21px 21px 0 0" ; style="border:20px;" allowfullscreen=""
+                    loading="lazy"></iframe>
             </div>
+        </div>
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Comunicate con nosotros:</h2>
+                <p class="lead-center">
+                    Preguntas mas comunes:
+                <ul>
+                    <li class="list-group-item">¿Horarios de atencion?</li>
+                    <li class="list-group-item">¿Diferentes lugares de atencion?</li>
+
+                </ul>
+                </p>
+                <textarea name="textarea" rows="10"
+                    cols="50"> escribi todas tus preguntas o dudas que tengas...</textarea>
+
+            </div>
+            <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Enviar</a>
         </div>
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
         <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 p-3">
-                <h2 class="display-5">Tenemos la mejor categoria en...</h2>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, quisquam earum.
-                    Voluptatem a eum minus? Tenetur explicabo dolor perspiciatis veniam dolore. Suscipit, molestias!
-                    Veniam velit iusto aliquam id amet eveniet!</p>
+                <h2 class="display-5">Avalados por agencias de turismo:</h2>
+                <p class="lead">
+                    Estas empresas son del primer nivel en turismo y con sigo nos traen gran diversidad en actividades
+                    sitios del pais que estan pensados para el disfrute de los clientes.
+                </p>
             </div>
-            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div>
-        </div>
-        <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-            <div class="my-3 py-3">
-                <h2 class="display-5">Podes contar con nosotros.</h2>
-                <p class="lead">las 24 hs del dia los 7 dias de la semana</p>
-            </div>
-            <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div>
-        </div>
-    </div>
-
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-            <div class="my-3 p-3">
-                <h2 class="display-5">Acompañados por</h2>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ratione eveniet
-                    numquam perspiciatis. Adipisci porro ducimus, tenetur corrupti dignissimos, unde corporis mollitia
-                    incidunt consequatur repellendus culpa laboriosam dolor, sed maxime..</p>
-            </div>
-            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div>
+            <img src="imagenes/Logo/maxDream.png" class="img-fluid" alt="maxdreamIMG">
+            <img src="imagenes/Logo/travelrock.png" class="img-fluid" alt="">
+            <img src="imagenes/Logo/oie_transparent.png" class="img-fluid" alt="">
+            <!-- <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+            </div> -->
         </div>
         <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 py-3">
-                <h2 class="display-5">Tambien podes encontrarnos en</h2>
-                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum culpa odit totam
-                    blanditiis libero, non cumque labore harum error. Explicabo repellat quis saepe minima qui beatae
-                    rerum quidem aliquid dolor!</p>
+                <h2 class="display-5">Tambien encontra lo mejor de otros paises:</h2>
+                <p class="lead">Gracias a nuestro interes en el deporte, podes ahora disfrutar no solo de argentina,sino
+                    de otros paises.</p>
             </div>
             <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <img src="imagenes/Logo/paises.jpg" class="img-fluid" alt="paises">
             </div>
         </div>
     </div>
@@ -210,61 +189,59 @@
         <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 p-3">
                 <h2 class="display-5">Nuestros servicios </h2>
-                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos dicta nemo, similique
-                    dolores iste vitae, autem reiciendis repellendus, itaque numquam odio. Beatae ipsum recusandae rerum
-                    quia aliquam repudiandae ex molestiae.</p>
-            </div>
-            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <br>
+                <br>
+                <p class="lead">Brindamos asistencia las 24hs del dia los siete dias de la semana todos los dias del
+                    año. Para logar el mayor confort y el mejor servicio que podemos brindar otorgamos un servicio en el
+                    cual la respuesta no demorara mas de 24hs, luego de realizada la gestoria.
+                </p>
             </div>
         </div>
         <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 py-3">
-                <h2 class="display-5">Asociados </h2>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ducimus placeat
-                    voluptatum pariatur fuga assumenda natus alias aspernatur ipsa, saepe quae blanditiis at voluptatem
-                    commodi dolorum modi magnam vero amet!</p>
+                <h2 class="display-5">Creadores</h2>
+                <p class="lead">Creador: Emanuel David Garcia</p>
+                <p class="lead">
+                    Soy profesor de educacion fisica, Guardavidas, Buzo internacional de 1er nivel, Masoterapeuta.
+                    traigo a ustedes una pagina enfocada al deporte y el turismo en la region de argentina con funcion
+                    en 5 paginas webs.en tres dispositivos diferentes desktop mobile y tablet.</p>
             </div>
-            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div>
+
+            <img src="imagenes/Logo/emanuelF.jpg" alt="emanuelimg"
+                style="width: 60%; height: 300px; border-radius: 21px 21px 0 0;">
+
         </div>
     </div>
     <hr class="featurette-divider">
-    <div class="container-fluid">
-        <footer class="container py-5">
-            <div class="row">
-                <div class="col-3 col-md">
-                    <img src="assets/icons/2x/share-symbol_icon-icons.com_68493.ico"class="move" alt=" ico.compartir" height="70px"
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row featurette">
+                <div class="col-md-4">
+                    <h3 class="AlineadoH3">comunicate con nosotros</h3>
+                    <img src="assets/icons/icons8-compartir-2-64.png" class="move" alt=" ico.compartir" height="70px"
                         width="70px">
+                    <img src="assets/icons/icons8-whatsapp-64.png" class="move" alt="ico whatsapp">
+                    <img src="assets/icons/icons8-facebook-rodeado-de-círculo-64.png" class="move" alt="ico llamada">
                 </div>
-                <div class="col-3 col-md">
-
-                    <img src="assets/icons/whatsapp-logo_icon-icons.com_57054.ico"class="move" alt="ico whatsapp">
+                <div class="col-md-4">
+                    <img src="imagenes/Logo/Logo.png" alt="Img Logo" class="logo" data-aos="zoom-in"
+                        data-aos-duration="3000">
                 </div>
-                <div class="col-3 col-md">
-
-                    <img src="assets/icons/fb_icon-icons.com_65434.ico"class="move" alt="ico llamada">
+                <div class="col-md-4">
+                    <a class="dropdown-item" href="Quienes-somos.html">Quienes somos</a>
+                    <a class="dropdown-item" href="#">Donde Estamos</a>
+                    <a class="dropdown-item" href="#">Email</a>
+                    <a class="dropdown-item" href="#">Socios</a>
                 </div>
-                <div class="col-3 col-md">
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <div class="input-group">
-                                <button class="btn btn-outline-secondary dropdown-toggle" type="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ayuda</button>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="Quienes-somos.html">Quienes somos</a>
-                                    <a class="dropdown-item" href="#">Donde Estamos</a>
-                                    <a class="dropdown-item" href="#">Email</a>
-                                    <div role="separator" class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Socios</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md">
-                            <p class="float-right"><a href="#">volver arriba</a></p>
-                        </div>
+                <div class="col-12 col-md">
+                    <h6 class="float-left">© 2021 EmanuelDavidGarcia</h6>
+                    <p class="float-right"><a href="#">volver arriba</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-        </footer>
-    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

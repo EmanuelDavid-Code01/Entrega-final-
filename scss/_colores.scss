@@ -7,18 +7,6 @@ h1.h3.mb-3{
     background-color: turquoise ;
     
 }
-// main{
-    //  background: linear-gradient(130deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%);
-    // position:relative ;
-    // z-index: 1;
-    //  }
-//   div.album.py-5.bg-light{
-//      background-color: transparent !important;  
-//      }
-
-//  body.Bariloche{
-//     background-color: lawngreen !important;
-//   }
  .fondoBody{
      background-image: url("https://elephas.com.ar/wp-content/uploads/2020/06/bariloche-trekking-1-scaled.jpg");
      background-size: contain;
@@ -53,6 +41,7 @@ hr{
     background-color:  #16c79a;
 }
 p{
+    margin-top: 20px;
     text-align: center;
     color: #11698e;
     font-family:"Lato-Light" ;
@@ -151,13 +140,13 @@ div.row.featurette{
    width: 100%;
      background: linear-gradient(130deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%);
  }
-// .bg-light{
-//     background: linear-gradient(130deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%)!important;
-// }
+.bg-light{
+   background: linear-gradient(130deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%)!important;
+}
 input{
     background-color:#3f3697 ;
 }
-// registrate center
+
 .flexCenter{
     justify-content: center;
 }
@@ -170,11 +159,10 @@ input{
  #navbarDropdownMenuLink{
      padding-bottom: 0;
 } 
-.img-fluid-quienes{
-     position:absolute;
-    z-index:-1;
-  }
-  .img-fluid{
+    h1.col-sm-12.QuienesSomos.aos-init.aos-animate{
+        margin-top: 20px;
+    }
+  .img-fluid.index{
       border-radius: 30% !important;
   }
   ul.navbar-nav.mr-auto{
