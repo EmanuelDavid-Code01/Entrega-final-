@@ -151,7 +151,9 @@ input {
     font-size: larger; }
   img.logo.aos-ini.aos-animate {
     display: block;
-    margin: auto; } }
+    margin: auto; }
+  div.col-md-1 {
+    padding-top: 145px; } }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   h1.col-sm-12.aos-animate {
