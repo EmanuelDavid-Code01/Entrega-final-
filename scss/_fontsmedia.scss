@@ -4,7 +4,7 @@
     }
     div.col-md-1{
       margin-top: inherit;
-      padding-top: 34px;
+      padding-top: 20px;
     }
     .navbar-dark .navbar-toggler-icon {
       background-color:#0a236a ;
@@ -24,6 +24,13 @@
   }
   div.col-md-1{
     padding-top: 145px;
+  }
+  div.form-group{
+    width: 275px !important;
+    padding-right:0px !important;
+  }
+  a.dropdown-item{
+    font-size: inherit;
   }
   }
   @media screen and (min-width:769px) and (max-width: 1200px) {
