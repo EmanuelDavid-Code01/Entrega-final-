@@ -51,9 +51,6 @@ h1 {
 a.nav-link.dropdown-item:hover {
   background-color: #f8f1f1 !important; }
 
-.navbar-dark .navbar-toggler-icon {
-  background-color: #0a236a; }
-
 h1.h3.mb-3 {
   color: #241d8b;
   background-color: turquoise; }
@@ -135,18 +132,17 @@ div.row.featurette {
 input {
   background-color: #3f3697; }
 
-h1.col-sm-12.QuienesSomos.aos-init.aos-animate {
-  margin-top: 20px; }
-
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #3f3697; }
 
-@media screen and (min-width: 300px) and (max-width: 700px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
   .col-sm-12 {
     font-size: 30px; }
   div.col-md-1 {
     margin-top: inherit;
-    padding-top: 34px; } }
+    padding-top: 34px; }
+  .navbar-dark .navbar-toggler-icon {
+    background-color: #0a236a; } }
 
 .move:hover {
   transition-duration: 230ms !important;
@@ -210,3 +206,6 @@ div.row.featurette.CambioLugar {
 div.row.featurette.logoQuienes {
   margin-top: 0px;
   margin-bottom: 0px; }
+
+h1.col-sm-12.QuienesSomos.aos-init.aos-animate {
+  margin-top: 20px; }
