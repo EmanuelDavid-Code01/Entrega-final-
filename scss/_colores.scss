@@ -2,21 +2,6 @@
 a.nav-link.dropdown-item:hover{
     background-color: #f8f1f1 !important;
 }
-// quienes somos
-
-div.col-ms-6{
-    position: relative;
-     left: 76px;
-}
-div.row.featurette.CambioLugar{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-div.row.featurette.logoQuienes{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-// quienes somos
 .navbar-dark .navbar-toggler-icon {
     background-color:#0a236a ;
 }
@@ -25,89 +10,48 @@ h1.h3.mb-3{
     background-color: turquoise ;
     
 }
- .fondoBody{
-     background-image: url("https://elephas.com.ar/wp-content/uploads/2020/06/bariloche-trekking-1-scaled.jpg");
-     background-size: contain;
- }
-.container-fluid .nav{
-    text-align: center;
-}
-* {
-    margin: 0;
-  }
-  .footer {
-    height: 4rem;
-  }
 body.fondoIndex{
     height: 100%;
     background: linear-gradient(130deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%);
 }
- div.rowGrad{
-    background-image: linear-gradient(270deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%) !important;
- }
-div.row.featurette{
-    margin:0;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-a{
-    font-size: 1.3rem;
-}
-
+//  div.rowGrad{
+//     background-image: linear-gradient(270deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%) !important;
+//  } mendoza todabia no lo decido tiene un grad
 hr{
     border: 2px solid #16c79a;
     background-color:  #16c79a;
 }
 p{
-    margin-top: 20px;
-    text-align: center;
     color: #11698e;
-    font-family:"Lato-Light" ;
 }
 h3{
     color: #0a236a;
-    text-align: center;
-    font-family: "AbrilFatface-Regular";
 }
 h2{
-    color: #0a236a;
-    text-align: center;
-    font-family:"Lato-Regular" ;
-    
+    color: #0a236a; 
 }
 h1{
-    color: #0a236a;
-    text-align: center;
-    font-size:80px;  
-    font-family: "AbrilFatface-Regular";
+    color: #0a236a;  
 }
 h5{
-    color: #19456b;
-    
+    color: #19456b;  
 }
 .iniciaR{
     color: #16c79a;
-    font-size: 40px;
-
 }
 small{
   color:   #19456b;
 }
-.bg-dark{
-    
+.bg-dark{  
     background-image: linear-gradient(270deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%) !important;
 }
  .card-title{
     color:#f8f1f1;
-    font-size: 40px;
 }
 .card-text{
-
 color:#3f3697;
-    font-size: 25px;
 } 
-.btn-primary {
-    
+.btn-primary { 
     color:#3f3697;
     background-color: #f8f1f1;
     border:double 4px grey;
@@ -117,7 +61,6 @@ color:#3f3697;
     background-color: #3f3697;
     border-color: #3f3697;
 }
-
 .btn{
     color:#3f3697 !important;
  background-color: #f8f1f1 !important;
@@ -128,31 +71,14 @@ color:#3f3697;
     background-color: #3f3697 !important;
     border-color: #3f3697 !important;
 } 
-.RioColor{
-    display: inline-block;
-    font-family: "AbrilFatface-Regular";
+.RioColor{  
     color:#153e90;
-    font-size: 60px;
-
-
 }
 .BarColor{
     color:#16c79a;
-}
-    
+} 
 .color{
     color: #000000;
-    font-family:"AbrilFatface-Regular";
-
-}
-.moverR{
-    position: relative;
-    top: -110px;
-
-}
-.moverRT{
-    position: relative;
-    top: -60px;
 }
 div.row.featurette{
    width: 100%;
@@ -165,42 +91,19 @@ input{
     background-color:#3f3697 ;
 }
 
-.flexCenter{
-    justify-content: center;
-}
-.nav-item-align{
-    display: flex;
-    justify-content: center;
-    justify-content:right;
-
-}
- #navbarDropdownMenuLink{
-     padding-bottom: 0;
-} 
+// .flexCenter{
+//      justify-content: center;
+//   }
+// .nav-item-align{
+//      display: flex;
+//      justify-content: center;
+//      justify-content:right;
+//  }
     h1.col-sm-12.QuienesSomos.aos-init.aos-animate{
         margin-top: 20px;
     }
-  .img-fluid.index{
-      border-radius: 30% !important;
-  }
-  ul.navbar-nav.mr-auto{
-      align-items: center;
-  }
   .navbar-dark .navbar-nav .nav-link:hover{
       color:#3f3697 ;
   }
-  .lead{
-      text-align: justify;
-  }
-  div.container-fluid{
-      padding-left: 0;
-      padding-right: 0;
-
-  }
-  img.logo.aos-init.aos-animate{
-      display: block;
-      margin: auto;
-  }
-  .AlineadoH3{
-      text-align:initial;
-  }
+  
+  
