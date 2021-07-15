@@ -1,4 +1,22 @@
+// color de click barra de nav
+a.nav-link.dropdown-item:hover{
+    background-color: #f8f1f1 !important;
+}
+// quienes somos
 
+div.col-ms-6{
+    position: relative;
+     left: 76px;
+}
+div.row.featurette.CambioLugar{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+div.row.featurette.logoQuienes{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+// quienes somos
 .navbar-dark .navbar-toggler-icon {
     background-color:#0a236a ;
 }
