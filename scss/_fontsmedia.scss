@@ -9,7 +9,28 @@
     .navbar-dark .navbar-toggler-icon {
       background-color:#0a236a ;
   }
+  h3.RioColor{
+    font-size: xxx-large;
+  }
+  ul.navbar-nav.mr-auto{
+    align-items: flex-start !important;
+  }
+  p.color{
+    font-size: larger;
+  }
+  img.logo.aos-ini.aos-animate{
+    display: block;
+    margin: auto;
+  }
   }
   @media screen and (min-width:769px) and (max-width: 1200px) {
-
+h1.col-sm-12.aos-animate{
+  font-size: xxx-large;
+}
+h3.RioColor{
+  font-size: xx-large;
+}
+ul.navbar-nav.mr-auto{
+  align-items: flex-start !important;
+}
   }
