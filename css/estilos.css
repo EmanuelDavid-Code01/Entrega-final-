@@ -225,6 +225,9 @@ div.row.featurette {
 .AlineadoH3 {
   text-align: initial; }
 
+a.dropdown-item.margin {
+  width: 200px; }
+
 .fondoBody {
   background-image: url("https://elephas.com.ar/wp-content/uploads/2020/06/bariloche-trekking-1-scaled.jpg");
   background-size: contain; }
