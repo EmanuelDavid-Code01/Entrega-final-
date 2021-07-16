@@ -1,4 +1,8 @@
 // color de click barra de nav
+body.registrate{
+    background: linear-gradient(130deg, #f7ffd5 0, #e4ffd9 10%, #d1ffdc 20%, #beffdc 30%, #adffda 40%, #9df2d5 50%, #90e1ce 60%, #87d2c8 70%, #81c5c2 80%, #7dbbbd 90%, #7bb3b9 100%);
+
+}
 a.nav-link.dropdown-item:hover{
     background-color: #f8f1f1 !important;
 }
