@@ -10,6 +10,9 @@
   font-family: "Lato-Regular";
   src: url(../assets/fonts/Lato-Regular.ttf); }
 
+h1.h3.mb-3 {
+  font-size: 2.5rem; }
+
 a {
   font-size: 1.3rem; }
 
@@ -263,3 +266,7 @@ h1.col-sm-12.QuienesSomos.aos-init.aos-animate {
   position: absolute;
   top: 0;
   width: 100%; }
+
+.fondoBodyTierraDFuego {
+  background-image: url("https://www.costacruceros.com/content/dam/costa/inventory-assets/ports/USH/ush-ushuaia-port-1.jpg");
+  background-size: contain; }
