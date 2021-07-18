@@ -18,13 +18,16 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body>
+<body class="QuienesSomos">
     <header>
         <div class="container-fluid nav">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link dropdown-item" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-item" href="Registrate.html">Registrate</a>
                     </li>
                 </ul>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -39,14 +42,14 @@
                                     <a class="nav-link dropdown-item" href="#" id="navbarDropdownMenuLink" role="button"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img src="imagenes/icoLogo/icons8-entrar-40.png" alt="login">
-                                        iniciar sesión
+                                        Iniciar sesión
                                     </a>
                                     <div class="dropdown-menu">
                                         <form class="px-2 py-3">
                                             <div class="form-group">
                                                 <label for="exampleDropdownFormEmail1">Agregá tu email</label>
                                                 <input type="email" class="form-control" id="exampleDropdownFormEmail1"
-                                                    placeholder="email@hotmailcom">
+                                                    placeholder="email@hotmail.com">
                                                 <div class="form-group">
                                                     <label for="exampleDropdownFormPassword1">Contraseña</label>
                                                     <input type="password" class="form-control"
@@ -64,8 +67,8 @@
                                                 <button type="submit" class="btn btn-primary">Ingresar</button>
                                         </form>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">¿No tenes cuenta? Crea una Nueva</a>
-                                        <a class="dropdown-item" href="#">¿olvidaste tu contraseña?</a>
+                                        <a class="dropdown-item" href="#">¿No tenés cuenta? Creá una nueva</a>
+                                        <a class="dropdown-item" href="#">¿Olvidaste tu contraseña?</a>
                                     </div>
                                 </div>
                             </div>
@@ -73,24 +76,21 @@
                 </li>
                 <div class="flexCenter">
                     <li class="nav-item">
-                        <a class="nav-link dropdown-item" href="Registrate.html">Registrate</a>
-                    </li>
-                </div>
-                <div class="flexCenter">
-                    <li class="nav-item">
                         <a class="nav-link disabled" href="#">Quiénes somos</a>
                     </li>
                     </ul>
                 </div>
+        
                 <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="A dónde querés ir?"
+                    <input class="form-control mr-sm-2" type="search" placeholder="¿A dónde querés ir?"
                         aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                 </form>
         </div>
         <br>
+        <br>
         <div class="row featurette logo">
-            <div class="col-md-1">
+            <div class="col-md-4">
                 <div class="container-fluid">
                     <div class="imgLogo">
                         <img src="imagenes/Logo/Logo.png" alt="Img Logo" class="logo" data-aos="zoom-in"
@@ -98,32 +98,26 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-11">
+            <div class="col-md-4">
                 <div class="container-fluid">
                     <div class="titulos">
-                        <h1 data-aos="zoom-in" data-aos-duration="3000" class="col-sm-12">Quiénes somos</h1>
+                        <h1 data-aos="zoom-in" data-aos-duration="3000" class="col-sm-12 Quienes">Quiénes Somos</h1>
                     </div>
                 </div>
             </div>
+            <div class="col-md-4"></div>
         </div>
     </header>
     <div class="container-fluid">
         <div class="row featurette CambioLugar">
-            <!-- <div class="col-md-6">
-
-                 <img src="imagenes/Pag index/arrecife de coral.jpg" class="img-fluid" alt="img-coral" width="560px"
-                    height="315px"> 
-            </div> -->
             <div class="col-md-12">
                 <div class="video-responsive">
-                <iframe src="https://www.youtube.com/embed/ovbFQ-4GM9I"
-                    title="YouTube video player" frameborder="1"
-                    allow="accelerometer; autoplay ; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/ovbFQ-4GM9I" title="YouTube video player" frameborder="1"
+                        allow="accelerometer; autoplay ; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
             </div>
-
-            <h3 class="text-md-left"> Somos la mejor opción para tus vacaciones, tenemos información
+            <h3 class="text-md-left Nu"> Somos la mejor opción para tus vacaciones, tenemos información
                 actualizada
                 de los lugares más solicitados, gracias a nuestros propios clientes.
             </h3>
@@ -137,7 +131,7 @@
             <div class="my-3 p-3">
                 <h2 class="display-5">Nos podés encontrár en: </h2>
                 <p class="lead">
-                    Estamos ubicados en el jardín japonés de la ciudad de Buenos Aires, terminal de trenes cercanas:
+                    Estamos ubicados en el Jardín Japonés de la ciudad de Buenos Aires, terminal de trenes cercanas:
                     MITRE, JOSE LEÓN SUÁREZ, RETIRO. Líneas de colectivos cercanas al destino: 12, 343, 21, 114.
                 </p>
             </div>
@@ -153,14 +147,14 @@
                 <h2 class="display-5">Comunicate con nosotros:</h2>
                 <p class="lead-center">
                     Preguntas más comunes:
-                <ul>
+                <ul class="ulQuienes">
                     <li class="list-group-item">¿Horarios de atención?</li>
                     <li class="list-group-item">¿Diferentes lugares de atención?</li>
 
                 </ul>
                 </p>
                 <textarea name="textarea" rows="7"
-                    cols="50"> escribí todas tus preguntas o dudas que tengas...</textarea>
+                    cols="50"> Escribí todas tus preguntas o dudas que tengas...</textarea>
 
             </div>
             <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Enviar</a>
@@ -172,15 +166,13 @@
             <div class="my-3 p-3">
                 <h2 class="display-5">Avalados por agencias de turismo:</h2>
                 <p class="lead">
-                    Estas empresas son del primer nivel en turismo y con sigo nos traen gran diversidad en actividades
+                    Estas empresas son del primer nivel en turismo y con la misma traen gran diversidad en actividades
                     sitios del pais que estan pensados para el disfrute de los clientes.
                 </p>
             </div>
             <img src="imagenes/Logo/maxDream.png" class="img-fluid" alt="maxdreamIMG">
             <img src="imagenes/Logo/travelrock.png" class="img-fluid" alt="">
             <img src="imagenes/Logo/oie_transparent.png" class="img-fluid" alt="">
-            <!-- <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            </div> -->
         </div>
         <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 py-3">
@@ -212,12 +204,12 @@
                 <h2 class="display-5">Creador</h2>
                 <p class="lead">Emanuel David García</p>
                 <p class="lead">
-                    Soy profesor de Educación Física, Guardavidas, Buzo Internacional de 1er nivel, Masoterapeuta.
-                    traigo a ustedes una página enfocada al deporte y el turismo en la region de Argentina con función
-                    en 5 páginas web. En tres dispositivos diferentes desktop mobile y tablet.</p>
+                    Soy profesor de Educación Física, Guardavidas, Buzo Internacional de 1er nivel, Masoterapeuta.</p>
+                <p class="lead">
+                    Traigo a ustedes una página enfocada al deporte y el turismo en la región de Argentina.</p>
             </div>
 
-            <img src="imagenes/Logo/emanuelF.jpg" alt="emanuelimg"
+            <img src="imagenes/Logo/emanuelF.jpg" alt="emanuelimg" class="img-fluid"
                 style="width: 60%; height: 300px; border-radius: 21px 21px 0 0;">
 
         </div>
@@ -240,8 +232,8 @@
                 </div>
                 <div class="col-md-4">
                     <br>
-                    <a class="nav-link disabled" href="Quienes-somos.html">Quiénes somos</a>
-                    <a class="dropdown-item margin" href="#">Dónde Estamos</a>
+                    <a class="nav-link disabled" href="#">Quiénes somos</a>
+                    <a class="dropdown-item margin" href="#">Dónde estamos</a>
                     <a class="dropdown-item margin" href="#">Email</a>
                     <a class="dropdown-item margin" href="#">Socios</a>
                 </div>

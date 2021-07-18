@@ -1,22 +1,21 @@
 @media screen and (min-width:0px) and (max-width: 768px) {
-    .col-sm-12{
-      font-size: 30px;
+  
+  h1.col-sm-12.Paraiso{
+   margin: revert;
+  }
+  h1.col-sm-12.registrate{
+    margin: revert;
+  }
     }
     div.col-md-1{
       margin-top: inherit;
       padding-top: 20px;
     }
-    .navbar-dark .navbar-toggler-icon {
-      background-color:#0a236a ;
-  }
   h3.aos-init.aos-animate{
     font-size: 1.4rem;
   }
   h3.RioColor{
     font-size: xx-large;
-  }
-  ul.navbar-nav.mr-auto{
-    align-items: flex-start !important;
   }
   p.color{
     font-size: larger;
@@ -44,15 +43,28 @@
     box-sizing: border-box;
     width: 100%;
 }
+
+h1.col-sm-12.aos-init.aos-animate{
+  font-size: xxx-large;
+  width: 100%;
+  position: relative;
+  
+  }
+  ul.navbar-nav.mr-auto{
+    align-items: flex-start !important;
   }
   @media screen and (min-width:769px) and (max-width: 1200px) {
-h1.col-sm-12.aos-animate{
-  font-size: xxx-large;
-}
+    h1.col-sm-12.Paraiso{
+      margin: revert;
+      font-size: xxx-large;
+     }
 h3.RioColor{
-  font-size: xx-large;
+  font-size: calc(1em + 1vw);
 }
-ul.navbar-nav.mr-auto{
-  align-items: flex-start !important;
-}
+  }
+  div.row.featurette.logo{
+    padding-top: 50px;
+  }
+  ul.navbar-nav.mr-auto{
+    align-items: flex-start !important;
   }
