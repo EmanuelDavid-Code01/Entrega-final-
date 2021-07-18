@@ -2,9 +2,11 @@
   
   h1.col-sm-12.Paraiso{
    margin: revert;
+   cursor: text;
   }
   h1.col-sm-12.registrate{
     margin: revert;
+    cursor: text;
   }
     }
     div.col-md-1{
@@ -13,6 +15,7 @@
     }
   h3.aos-init.aos-animate{
     font-size: 1.4rem;
+    cursor: text;
   }
   h3.RioColor{
     font-size: xx-large;
@@ -58,9 +61,6 @@ h1.col-sm-12.aos-init.aos-animate{
 h3.RioColor{
   font-size: calc(1em + 1vw);
 }
-  }
-  div.row.featurette.logo{
-    padding-top: 50px;
   }
   ul.navbar-nav.mr-auto{
     align-items: flex-start !important;

@@ -13,10 +13,11 @@
 h1.h3.mb-3 {
   font-size: 2.5rem; }
 
-a {
+a.dropdown-item.Bariloche {
   font-size: 1.5rem !important; }
 
 p {
+  cursor: text;
   margin-top: 20px;
   text-align: center;
   font-family: "Lato-Light"; }
@@ -82,6 +83,7 @@ h2 {
   color: #0a236a; }
 
 h1 {
+  text-shadow: 7px 7px #beffdc;
   color: #0a236a; }
 
 h5 {
@@ -152,16 +154,19 @@ a {
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
   h1.col-sm-12.Paraiso {
-    margin: revert; }
+    margin: revert;
+    cursor: text; }
   h1.col-sm-12.registrate {
-    margin: revert; } }
+    margin: revert;
+    cursor: text; } }
 
 div.col-md-1 {
   margin-top: inherit;
   padding-top: 20px; }
 
 h3.aos-init.aos-animate {
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  cursor: text; }
 
 h3.RioColor {
   font-size: xx-large; }
@@ -204,9 +209,6 @@ ul.navbar-nav.mr-auto {
   h3.RioColor {
     font-size: calc(1em + 1vw); } }
 
-div.row.featurette.logo {
-  padding-top: 50px; }
-
 ul.navbar-nav.mr-auto {
   align-items: flex-start !important; }
 
@@ -221,9 +223,14 @@ div.card.mb-4.shadow-sm {
 
 img.logo.aos-init.aos-animate {
   display: block;
-  margin: auto; }
+  margin-left: auto;
+  margin-right: auto; }
 
-div.container-fluid {
+.navbar {
+  flex-wrap: inherit; }
+
+div.container-fluid.nav {
+  padding-top: 50px;
   padding-left: 0;
   padding-right: 0; }
 
@@ -260,6 +267,10 @@ div.row.featurette {
 a.dropdown-item.margin {
   width: 200px; }
 
+div.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
 .fondoBody {
   background-image: url("https://elephas.com.ar/wp-content/uploads/2020/06/bariloche-trekking-1-scaled.jpg");
   background-size: contain; }
@@ -269,6 +280,9 @@ div.col-md-4 {
 
 h3.AlineadoH3.aos-init.aos-animate {
   padding-top: 15px; }
+
+a.texto {
+  font-size: 15px; }
 
 div.col-ms-6 {
   position: relative;
