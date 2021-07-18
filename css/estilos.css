@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 @font-face {
   font-family: "AbrilFatface-Regular";
   src: url(../assets/fonts/AbrilFatface-Regular.ttf); }
@@ -15,7 +14,7 @@ h1.h3.mb-3 {
   font-size: 2.5rem; }
 
 a {
-  font-size: 1.3rem; }
+  font-size: 1.5rem !important; }
 
 p {
   margin-top: 20px;
@@ -178,9 +177,6 @@ div.form-group {
   width: 275px !important;
   padding-right: 0px !important; }
 
-a.dropdown-item {
-  font-size: inherit; }
-
 li.list-group-item {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -268,6 +264,12 @@ a.dropdown-item.margin {
   background-image: url("https://elephas.com.ar/wp-content/uploads/2020/06/bariloche-trekking-1-scaled.jpg");
   background-size: contain; }
 
+div.col-md-4 {
+  padding-top: 15px; }
+
+h3.AlineadoH3.aos-init.aos-animate {
+  padding-top: 15px; }
+
 div.col-ms-6 {
   position: relative;
   left: 76px; }
@@ -306,18 +308,3 @@ h3.text-md-left.Nu {
 .fondoBodyTierraDFuego {
   background-image: url("https://www.costacruceros.com/content/dam/costa/inventory-assets/ports/USH/ush-ushuaia-port-1.jpg");
   background-size: contain; }
-
-.anim-typewriter {
-  animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal; }
-
-@keyframes typewriter {
-  from {
-    width: 0; }
-  to {
-    width: 24em; } }
-
-@keyframes blinkTextCursor {
-  from {
-    border-right-color: rgba(255, 255, 255, 0.75); }
-  to {
-    border-right-color: transparent; } }
